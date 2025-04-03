@@ -1,0 +1,15 @@
+C:\Git Repos\ProjetsCSharp\PersonnePropriete\bin\Debug\net9.0\PersonnePropriete.exe
+C:\Git Repos\ProjetsCSharp\PersonnePropriete\bin\Debug\net9.0\PersonnePropriete.deps.json
+C:\Git Repos\ProjetsCSharp\PersonnePropriete\bin\Debug\net9.0\PersonnePropriete.runtimeconfig.json
+C:\Git Repos\ProjetsCSharp\PersonnePropriete\bin\Debug\net9.0\PersonnePropriete.dll
+C:\Git Repos\ProjetsCSharp\PersonnePropriete\bin\Debug\net9.0\PersonnePropriete.pdb
+C:\Git Repos\ProjetsCSharp\PersonnePropriete\obj\Debug\net9.0\PersonnePropriete.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git Repos\ProjetsCSharp\PersonnePropriete\obj\Debug\net9.0\PersonnePropriete.AssemblyInfoInputs.cache
+C:\Git Repos\ProjetsCSharp\PersonnePropriete\obj\Debug\net9.0\PersonnePropriete.AssemblyInfo.cs
+C:\Git Repos\ProjetsCSharp\PersonnePropriete\obj\Debug\net9.0\PersonnePropriete.csproj.CoreCompileInputs.cache
+C:\Git Repos\ProjetsCSharp\PersonnePropriete\obj\Debug\net9.0\PersonnePropriete.sourcelink.json
+C:\Git Repos\ProjetsCSharp\PersonnePropriete\obj\Debug\net9.0\PersonnePropriete.dll
+C:\Git Repos\ProjetsCSharp\PersonnePropriete\obj\Debug\net9.0\refint\PersonnePropriete.dll
+C:\Git Repos\ProjetsCSharp\PersonnePropriete\obj\Debug\net9.0\PersonnePropriete.pdb
+C:\Git Repos\ProjetsCSharp\PersonnePropriete\obj\Debug\net9.0\PersonnePropriete.genruntimeconfig.cache
+C:\Git Repos\ProjetsCSharp\PersonnePropriete\obj\Debug\net9.0\ref\PersonnePropriete.dll
