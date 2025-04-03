@@ -1,0 +1,15 @@
+C:\Git Repos\ProjetsCSharp\VoitureEncapsulation\bin\Debug\net9.0\VoitureEncapsulation.exe
+C:\Git Repos\ProjetsCSharp\VoitureEncapsulation\bin\Debug\net9.0\VoitureEncapsulation.deps.json
+C:\Git Repos\ProjetsCSharp\VoitureEncapsulation\bin\Debug\net9.0\VoitureEncapsulation.runtimeconfig.json
+C:\Git Repos\ProjetsCSharp\VoitureEncapsulation\bin\Debug\net9.0\VoitureEncapsulation.dll
+C:\Git Repos\ProjetsCSharp\VoitureEncapsulation\bin\Debug\net9.0\VoitureEncapsulation.pdb
+C:\Git Repos\ProjetsCSharp\VoitureEncapsulation\obj\Debug\net9.0\VoitureEncapsulation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git Repos\ProjetsCSharp\VoitureEncapsulation\obj\Debug\net9.0\VoitureEncapsulation.AssemblyInfoInputs.cache
+C:\Git Repos\ProjetsCSharp\VoitureEncapsulation\obj\Debug\net9.0\VoitureEncapsulation.AssemblyInfo.cs
+C:\Git Repos\ProjetsCSharp\VoitureEncapsulation\obj\Debug\net9.0\VoitureEncapsulation.csproj.CoreCompileInputs.cache
+C:\Git Repos\ProjetsCSharp\VoitureEncapsulation\obj\Debug\net9.0\VoitureEncapsulation.sourcelink.json
+C:\Git Repos\ProjetsCSharp\VoitureEncapsulation\obj\Debug\net9.0\VoitureEncapsulation.dll
+C:\Git Repos\ProjetsCSharp\VoitureEncapsulation\obj\Debug\net9.0\refint\VoitureEncapsulation.dll
+C:\Git Repos\ProjetsCSharp\VoitureEncapsulation\obj\Debug\net9.0\VoitureEncapsulation.pdb
+C:\Git Repos\ProjetsCSharp\VoitureEncapsulation\obj\Debug\net9.0\VoitureEncapsulation.genruntimeconfig.cache
+C:\Git Repos\ProjetsCSharp\VoitureEncapsulation\obj\Debug\net9.0\ref\VoitureEncapsulation.dll
