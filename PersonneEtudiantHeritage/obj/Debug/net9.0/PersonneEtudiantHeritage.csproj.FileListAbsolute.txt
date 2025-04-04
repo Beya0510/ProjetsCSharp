@@ -1,0 +1,15 @@
+C:\Git Repos\ProjetsCSharp\PersonneEtudiantHeritage\bin\Debug\net9.0\PersonneEtudiantHeritage.exe
+C:\Git Repos\ProjetsCSharp\PersonneEtudiantHeritage\bin\Debug\net9.0\PersonneEtudiantHeritage.deps.json
+C:\Git Repos\ProjetsCSharp\PersonneEtudiantHeritage\bin\Debug\net9.0\PersonneEtudiantHeritage.runtimeconfig.json
+C:\Git Repos\ProjetsCSharp\PersonneEtudiantHeritage\bin\Debug\net9.0\PersonneEtudiantHeritage.dll
+C:\Git Repos\ProjetsCSharp\PersonneEtudiantHeritage\bin\Debug\net9.0\PersonneEtudiantHeritage.pdb
+C:\Git Repos\ProjetsCSharp\PersonneEtudiantHeritage\obj\Debug\net9.0\PersonneEtudiantHeritage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git Repos\ProjetsCSharp\PersonneEtudiantHeritage\obj\Debug\net9.0\PersonneEtudiantHeritage.AssemblyInfoInputs.cache
+C:\Git Repos\ProjetsCSharp\PersonneEtudiantHeritage\obj\Debug\net9.0\PersonneEtudiantHeritage.AssemblyInfo.cs
+C:\Git Repos\ProjetsCSharp\PersonneEtudiantHeritage\obj\Debug\net9.0\PersonneEtudiantHeritage.csproj.CoreCompileInputs.cache
+C:\Git Repos\ProjetsCSharp\PersonneEtudiantHeritage\obj\Debug\net9.0\PersonneEtudiantHeritage.sourcelink.json
+C:\Git Repos\ProjetsCSharp\PersonneEtudiantHeritage\obj\Debug\net9.0\PersonneEtudiantHeritage.dll
+C:\Git Repos\ProjetsCSharp\PersonneEtudiantHeritage\obj\Debug\net9.0\refint\PersonneEtudiantHeritage.dll
+C:\Git Repos\ProjetsCSharp\PersonneEtudiantHeritage\obj\Debug\net9.0\PersonneEtudiantHeritage.pdb
+C:\Git Repos\ProjetsCSharp\PersonneEtudiantHeritage\obj\Debug\net9.0\PersonneEtudiantHeritage.genruntimeconfig.cache
+C:\Git Repos\ProjetsCSharp\PersonneEtudiantHeritage\obj\Debug\net9.0\ref\PersonneEtudiantHeritage.dll
