@@ -1,0 +1,15 @@
+C:\Git Repos\ProjetsCSharp\ClassesAbstraites\bin\Debug\net9.0\ClassesAbstraites.exe
+C:\Git Repos\ProjetsCSharp\ClassesAbstraites\bin\Debug\net9.0\ClassesAbstraites.deps.json
+C:\Git Repos\ProjetsCSharp\ClassesAbstraites\bin\Debug\net9.0\ClassesAbstraites.runtimeconfig.json
+C:\Git Repos\ProjetsCSharp\ClassesAbstraites\bin\Debug\net9.0\ClassesAbstraites.dll
+C:\Git Repos\ProjetsCSharp\ClassesAbstraites\bin\Debug\net9.0\ClassesAbstraites.pdb
+C:\Git Repos\ProjetsCSharp\ClassesAbstraites\obj\Debug\net9.0\ClassesAbstraites.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git Repos\ProjetsCSharp\ClassesAbstraites\obj\Debug\net9.0\ClassesAbstraites.AssemblyInfoInputs.cache
+C:\Git Repos\ProjetsCSharp\ClassesAbstraites\obj\Debug\net9.0\ClassesAbstraites.AssemblyInfo.cs
+C:\Git Repos\ProjetsCSharp\ClassesAbstraites\obj\Debug\net9.0\ClassesAbstraites.csproj.CoreCompileInputs.cache
+C:\Git Repos\ProjetsCSharp\ClassesAbstraites\obj\Debug\net9.0\ClassesAbstraites.sourcelink.json
+C:\Git Repos\ProjetsCSharp\ClassesAbstraites\obj\Debug\net9.0\ClassesAbstraites.dll
+C:\Git Repos\ProjetsCSharp\ClassesAbstraites\obj\Debug\net9.0\refint\ClassesAbstraites.dll
+C:\Git Repos\ProjetsCSharp\ClassesAbstraites\obj\Debug\net9.0\ClassesAbstraites.pdb
+C:\Git Repos\ProjetsCSharp\ClassesAbstraites\obj\Debug\net9.0\ClassesAbstraites.genruntimeconfig.cache
+C:\Git Repos\ProjetsCSharp\ClassesAbstraites\obj\Debug\net9.0\ref\ClassesAbstraites.dll

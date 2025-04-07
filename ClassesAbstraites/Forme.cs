@@ -1,6 +1,7 @@
 ﻿namespace ClassesAbstraites;
 
-public class Forme
+public abstract class Forme
 {
-    
+    public abstract void Dessiner();
+
 }
