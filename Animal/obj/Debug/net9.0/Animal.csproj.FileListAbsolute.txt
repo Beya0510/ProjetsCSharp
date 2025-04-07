@@ -1,0 +1,15 @@
+C:\Git Repos\ProjetsCSharp\Animal\bin\Debug\net9.0\Animal.exe
+C:\Git Repos\ProjetsCSharp\Animal\bin\Debug\net9.0\Animal.deps.json
+C:\Git Repos\ProjetsCSharp\Animal\bin\Debug\net9.0\Animal.runtimeconfig.json
+C:\Git Repos\ProjetsCSharp\Animal\bin\Debug\net9.0\Animal.dll
+C:\Git Repos\ProjetsCSharp\Animal\bin\Debug\net9.0\Animal.pdb
+C:\Git Repos\ProjetsCSharp\Animal\obj\Debug\net9.0\Animal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git Repos\ProjetsCSharp\Animal\obj\Debug\net9.0\Animal.AssemblyInfoInputs.cache
+C:\Git Repos\ProjetsCSharp\Animal\obj\Debug\net9.0\Animal.AssemblyInfo.cs
+C:\Git Repos\ProjetsCSharp\Animal\obj\Debug\net9.0\Animal.csproj.CoreCompileInputs.cache
+C:\Git Repos\ProjetsCSharp\Animal\obj\Debug\net9.0\Animal.sourcelink.json
+C:\Git Repos\ProjetsCSharp\Animal\obj\Debug\net9.0\Animal.dll
+C:\Git Repos\ProjetsCSharp\Animal\obj\Debug\net9.0\refint\Animal.dll
+C:\Git Repos\ProjetsCSharp\Animal\obj\Debug\net9.0\Animal.pdb
+C:\Git Repos\ProjetsCSharp\Animal\obj\Debug\net9.0\Animal.genruntimeconfig.cache
+C:\Git Repos\ProjetsCSharp\Animal\obj\Debug\net9.0\ref\Animal.dll
