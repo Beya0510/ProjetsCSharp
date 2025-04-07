@@ -1,0 +1,15 @@
+C:\Git Repos\ProjetsCSharp\Interfaces\bin\Debug\net9.0\Interfaces.exe
+C:\Git Repos\ProjetsCSharp\Interfaces\bin\Debug\net9.0\Interfaces.deps.json
+C:\Git Repos\ProjetsCSharp\Interfaces\bin\Debug\net9.0\Interfaces.runtimeconfig.json
+C:\Git Repos\ProjetsCSharp\Interfaces\bin\Debug\net9.0\Interfaces.dll
+C:\Git Repos\ProjetsCSharp\Interfaces\bin\Debug\net9.0\Interfaces.pdb
+C:\Git Repos\ProjetsCSharp\Interfaces\obj\Debug\net9.0\Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git Repos\ProjetsCSharp\Interfaces\obj\Debug\net9.0\Interfaces.AssemblyInfoInputs.cache
+C:\Git Repos\ProjetsCSharp\Interfaces\obj\Debug\net9.0\Interfaces.AssemblyInfo.cs
+C:\Git Repos\ProjetsCSharp\Interfaces\obj\Debug\net9.0\Interfaces.csproj.CoreCompileInputs.cache
+C:\Git Repos\ProjetsCSharp\Interfaces\obj\Debug\net9.0\Interfaces.sourcelink.json
+C:\Git Repos\ProjetsCSharp\Interfaces\obj\Debug\net9.0\Interfaces.dll
+C:\Git Repos\ProjetsCSharp\Interfaces\obj\Debug\net9.0\refint\Interfaces.dll
+C:\Git Repos\ProjetsCSharp\Interfaces\obj\Debug\net9.0\Interfaces.pdb
+C:\Git Repos\ProjetsCSharp\Interfaces\obj\Debug\net9.0\Interfaces.genruntimeconfig.cache
+C:\Git Repos\ProjetsCSharp\Interfaces\obj\Debug\net9.0\ref\Interfaces.dll
