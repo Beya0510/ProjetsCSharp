@@ -1,0 +1,15 @@
+C:\Git Repos\ProjetsCSharp\Polymorphisme\bin\Debug\net9.0\Polymorphisme.exe
+C:\Git Repos\ProjetsCSharp\Polymorphisme\bin\Debug\net9.0\Polymorphisme.deps.json
+C:\Git Repos\ProjetsCSharp\Polymorphisme\bin\Debug\net9.0\Polymorphisme.runtimeconfig.json
+C:\Git Repos\ProjetsCSharp\Polymorphisme\bin\Debug\net9.0\Polymorphisme.dll
+C:\Git Repos\ProjetsCSharp\Polymorphisme\bin\Debug\net9.0\Polymorphisme.pdb
+C:\Git Repos\ProjetsCSharp\Polymorphisme\obj\Debug\net9.0\Polymorphisme.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git Repos\ProjetsCSharp\Polymorphisme\obj\Debug\net9.0\Polymorphisme.AssemblyInfoInputs.cache
+C:\Git Repos\ProjetsCSharp\Polymorphisme\obj\Debug\net9.0\Polymorphisme.AssemblyInfo.cs
+C:\Git Repos\ProjetsCSharp\Polymorphisme\obj\Debug\net9.0\Polymorphisme.csproj.CoreCompileInputs.cache
+C:\Git Repos\ProjetsCSharp\Polymorphisme\obj\Debug\net9.0\Polymorphisme.sourcelink.json
+C:\Git Repos\ProjetsCSharp\Polymorphisme\obj\Debug\net9.0\Polymorphisme.dll
+C:\Git Repos\ProjetsCSharp\Polymorphisme\obj\Debug\net9.0\refint\Polymorphisme.dll
+C:\Git Repos\ProjetsCSharp\Polymorphisme\obj\Debug\net9.0\Polymorphisme.pdb
+C:\Git Repos\ProjetsCSharp\Polymorphisme\obj\Debug\net9.0\Polymorphisme.genruntimeconfig.cache
+C:\Git Repos\ProjetsCSharp\Polymorphisme\obj\Debug\net9.0\ref\Polymorphisme.dll
