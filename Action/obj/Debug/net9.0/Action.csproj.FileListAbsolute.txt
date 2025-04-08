@@ -1,0 +1,15 @@
+C:\Git Repos\ProjetsCSharp\Action\bin\Debug\net9.0\Action.exe
+C:\Git Repos\ProjetsCSharp\Action\bin\Debug\net9.0\Action.deps.json
+C:\Git Repos\ProjetsCSharp\Action\bin\Debug\net9.0\Action.runtimeconfig.json
+C:\Git Repos\ProjetsCSharp\Action\bin\Debug\net9.0\Action.dll
+C:\Git Repos\ProjetsCSharp\Action\bin\Debug\net9.0\Action.pdb
+C:\Git Repos\ProjetsCSharp\Action\obj\Debug\net9.0\Action.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git Repos\ProjetsCSharp\Action\obj\Debug\net9.0\Action.AssemblyInfoInputs.cache
+C:\Git Repos\ProjetsCSharp\Action\obj\Debug\net9.0\Action.AssemblyInfo.cs
+C:\Git Repos\ProjetsCSharp\Action\obj\Debug\net9.0\Action.csproj.CoreCompileInputs.cache
+C:\Git Repos\ProjetsCSharp\Action\obj\Debug\net9.0\Action.sourcelink.json
+C:\Git Repos\ProjetsCSharp\Action\obj\Debug\net9.0\Action.dll
+C:\Git Repos\ProjetsCSharp\Action\obj\Debug\net9.0\refint\Action.dll
+C:\Git Repos\ProjetsCSharp\Action\obj\Debug\net9.0\Action.pdb
+C:\Git Repos\ProjetsCSharp\Action\obj\Debug\net9.0\Action.genruntimeconfig.cache
+C:\Git Repos\ProjetsCSharp\Action\obj\Debug\net9.0\ref\Action.dll
