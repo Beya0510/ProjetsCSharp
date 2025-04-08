@@ -1,0 +1,55 @@
+﻿@namespace Component
+
+<div style="display:flex; justify-content:center; align-items:center; width:100%; height:100%; background-color:@BackgroundColor; padding:20px; border-radius:5px; color:black; box-sizing:border-box;">
+    <!-- Conteneur principal avec centrage vertical et horizontal -->
+    <div style="text-align:center;">
+        <p>@Message</p>
+        <!-- Affiche le message passé en paramètre ou le message par défaut -->
+        <button class="btn btn-primary" style="margin-top:10px; display:block;" @onclick="ChangeBackgroundColor">Changer la couleur de fond</button>
+        <!-- Bouton pour changer la couleur de fond du composant -->
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public string Message { get; set; } = "Ceci est un message par défaut.";
+
+    [Parameter]
+    public string PageBackgroundColor { get; set; } = "white";
+
+    [Parameter]
+    public EventCallback OnColorChange { get; set; }
+
+    private string BackgroundColor { get; set; }
+
+    private readonly List<string> Colors = new()
+    {
+        "AntiqueWhite", "LightBlue", "LightGreen", "LightCoral", "LightPink",
+        "LightSalmon", "LightSeaGreen", "LightSkyBlue", "LightSteelBlue", "LightYellow"
+    };
+
+    protected override void OnInitialized()
+    {
+        // Initialisation correcte de la couleur de fond
+        BackgroundColor = string.IsNullOrWhiteSpace(PageBackgroundColor) ? "white" : PageBackgroundColor;
+    }
+
+    private async Task ChangeBackgroundColor()
+    {
+        var random = new Random();
+        string newColor;
+
+        do
+        {
+            newColor = Colors[random.Next(Colors.Count)];
+        } while (newColor == BackgroundColor);
+
+        BackgroundColor = newColor;
+
+        // Notifie le parent si un EventCallback est défini
+        if (OnColorChange.HasDelegate)
+        {
+            await OnColorChange.InvokeAsync();
+        }
+    }
+}

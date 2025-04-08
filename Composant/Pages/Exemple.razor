@@ -1,0 +1,60 @@
+﻿@page "/Exemple"
+@using Component
+
+<PageTitle>Exemple</PageTitle>
+
+<div style="position:relative; height:100vh; background-color:@backgroundColor;">
+    <div style="position:absolute; top:0; left:0; right:0; display:flex; justify-content:space-between; padding:10px;">
+        <button class="btn btn-primary" @onclick="OnClick">Cliquez-moi</button>
+        <button class="btn btn-secondary" @onclick="Reset">Ré-initialiser</button>
+    </div>
+
+    <div style="display:flex; flex-direction:column; justify-content:center; align-items:center; height:100%; text-align:center;">
+        <h1>Exemple</h1>
+        <p style="margin:10px 0; font-size:18px; color:black;">Nombre de changements de couleur : @colorChangeCount</p>
+
+        <div style="margin-top:20px; width:300px; height:300px; display:flex; justify-content:center; align-items:center; border:2px solid black; border-radius:10px; background-color:white; box-sizing:border-box;">
+            <MonComposant style="width:100%; height:100%;" Message="Composant dynamique dans la page Exemple !" PageBackgroundColor="@backgroundColor" OnColorChange="HandleColorChange" />
+        </div>
+    </div>
+</div>
+
+@code {
+    private string backgroundColor;
+    private int colorChangeCount = 0;
+    private int currentColorIndex = 0;
+
+    private readonly List<string> Colors = new()
+    {
+        "AntiqueWhite", "LightBlue", "LightGreen", "LightCoral", "LightPink",
+        "LightSalmon", "LightSeaGreen", "LightSkyBlue", "LightSteelBlue", "LightYellow"
+    };
+
+    protected override void OnInitialized()
+    {
+        // Initialisation de la couleur de fond avec la première couleur de la liste
+        backgroundColor = Colors[currentColorIndex];
+    }
+
+    private void OnClick()
+    {
+        // Passe à la couleur suivante dans la liste
+        currentColorIndex = (currentColorIndex + 1) % Colors.Count;
+        backgroundColor = Colors[currentColorIndex];
+        colorChangeCount++;
+    }
+
+    private void Reset()
+    {
+        // Réinitialise la couleur et le compteur
+        currentColorIndex = 0;
+        backgroundColor = Colors[currentColorIndex];
+        colorChangeCount = 0;
+    }
+
+    private void HandleColorChange()
+    {
+        // Incrémente le compteur si nécessaire
+        colorChangeCount++;
+    }
+}}
