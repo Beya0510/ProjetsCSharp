@@ -1,27 +1,35 @@
 ﻿@page "/Exemple"
 @using Component
+@inject Composant.Services.AppState AppState
 
 <PageTitle>Exemple</PageTitle>
 
-<div style="position:relative; height:100vh; background-color:@backgroundColor;">
-    <div style="position:absolute; top:0; left:0; right:0; display:flex; justify-content:space-between; padding:10px;">
+<div class="page-container" style="background-color:@backgroundColor;">
+    @*<div class="header-container">
         <button class="btn btn-primary" @onclick="OnClick">Cliquez-moi</button>
         <button class="btn btn-secondary" @onclick="Reset">Ré-initialiser</button>
     </div>
+    *@
 
-    <div style="display:flex; flex-direction:column; justify-content:center; align-items:center; height:100%; text-align:center;">
+    <div class="content-container">
         <h1>Exemple</h1>
-        <p style="margin:10px 0; font-size:18px; color:black;">Nombre de changements de couleur : @colorChangeCount</p>
+        <p class="color-change-counter"><b>Nombre de changements de couleur : @AppState.CounterValue</b></p>
 
-        <div style="margin-top:20px; width:300px; height:300px; display:flex; justify-content:center; align-items:center; border:2px solid black; border-radius:10px; background-color:white; box-sizing:border-box;">
-            <MonComposant style="width:100%; height:100%;" Message="Composant dynamique dans la page Exemple !" PageBackgroundColor="@backgroundColor" OnColorChange="HandleColorChange" />
+        <div class="component-container">
+            <b> <MonComposant
+                    class="full-size"
+                    Message="Composant dynamique dans la page Exemple !"
+                    PageBackgroundColor="@backgroundColor"
+                    OnColorChange="HandleColorChange" /></b>
+
+            <ColorControls OnBackgroundColorChange="HandleBackgroundColorChange" />
         </div>
     </div>
 </div>
 
 @code {
-    private string backgroundColor;
-    private int colorChangeCount = 0;
+    private string backgroundColor = "AntiqueWhite"; // Valeur par défaut
+
     private int currentColorIndex = 0;
 
     private readonly List<string> Colors = new()
@@ -41,20 +49,26 @@
         // Passe à la couleur suivante dans la liste
         currentColorIndex = (currentColorIndex + 1) % Colors.Count;
         backgroundColor = Colors[currentColorIndex];
-        colorChangeCount++;
+        AppState.IncrementCounter();
     }
 
-    private void Reset()
+    public void Reset()
     {
-        // Réinitialise la couleur et le compteur
+        // Réinitialise la couleur et le compteur global
         currentColorIndex = 0;
         backgroundColor = Colors[currentColorIndex];
-        colorChangeCount = 0;
+        AppState.CounterValue = 0;
     }
 
     private void HandleColorChange()
     {
-        // Incrémente le compteur si nécessaire
-        colorChangeCount++;
+        // Incrémente le compteur global via le service
+        AppState.IncrementCounter();
     }
-}}
+
+    private void HandleBackgroundColorChange(string newColor)
+    {
+        // Met à jour la couleur de fond
+        backgroundColor = newColor;
+    }
+}

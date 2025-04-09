@@ -1,0 +1,60 @@
+﻿@using Composant.Services
+@inject Composant.Services.AppState AppState
+
+    
+}
+@attributes AllOtherAttributes
+
+@{
+    var cssClass = "color-controls-container";
+    if (AllOtherAttributes != null && AllOtherAttributes.TryGetValue("class", out var extraClass))
+    {
+        cssClass += $" {extraClass}";
+    }
+}
+
+<div class="@cssClass" @attributes="FilteredAttributes">
+    <h3>ColorControls</h3>
+
+    <button class="btn btn-primary" @onclick="OnClick">Cliquez-moi</button>
+    <button class="btn btn-secondary" @onclick="Reset">Ré-initialiser</button>
+</div>
+
+@code {
+    [Parameter(CaptureUnmatchedValues = true)]
+    public Dictionary<string, object> AllOtherAttributes { get; set; } = new();
+    object attributes;
+    
+    
+    [Parameter]
+    public EventCallback<string> OnBackgroundColorChange { get; set; }
+
+    private Dictionary<string, object> FilteredAttributes =>
+        AllOtherAttributes
+            .Where(kvp => kvp.Key != "class") // Ne pas dupliquer "class"
+            .ToDictionary(kvp => kvp.Key, kvp => kvp.Value);
+
+    private int currentColorIndex = 0;
+
+    private readonly List<string> Colors = new()
+    {
+        "AntiqueWhite", "LightBlue", "LightGreen", "LightCoral", "LightPink",
+        "LightSalmon", "LightSeaGreen", "LightSkyBlue", "LightSteelBlue", "LightYellow"
+    };
+
+    private void OnClick()
+    {
+        currentColorIndex = (currentColorIndex + 1) % Colors.Count;
+        var newColor = Colors[currentColorIndex];
+        AppState.IncrementCounter();
+        OnBackgroundColorChange.InvokeAsync(newColor);
+    }
+
+    private void Reset()
+    {
+        currentColorIndex = 0;
+        var defaultColor = Colors[currentColorIndex];
+        AppState.ResetCounter();
+        OnBackgroundColorChange.InvokeAsync(defaultColor);
+    }
+}

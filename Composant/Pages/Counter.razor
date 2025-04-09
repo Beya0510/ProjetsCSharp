@@ -1,0 +1,41 @@
+﻿@page "/counter"
+@using Composant.Services
+@using Component
+@inject HttpClient Http
+@inject AppState AppState
+
+<PageTitle>Counter</PageTitle>
+
+<h1>Counter</h1>
+
+<p>Compteur actuel: @AppState.CounterValue</p>
+<button @onclick="IncrementCount">Incrémenter</button>
+
+<div class="content-container">
+    <MonComposant
+        class="full-size"
+        Message="Composant dynamique dans la page Counter !"
+        PageBackgroundColor="@backgroundColor"
+        OnColorChange="HandleColorChange" />
+
+    <ColorControls OnBackgroundColorChange="HandleBackgroundColorChange" />
+</div>
+
+@code {
+    private string? backgroundColor = "AntiqueWhite"; // Valeur par défaut
+
+    private void HandleBackgroundColorChange(string newColor)
+    {
+        backgroundColor = newColor; // Met à jour la couleur de fond
+    }
+
+    private void HandleColorChange()
+    {
+        AppState.IncrementCounter(); // Incrémente le compteur global
+    }
+
+    private void IncrementCount()
+    {
+        AppState.IncrementCounter(); // Incrémente le compteur global
+    }
+}

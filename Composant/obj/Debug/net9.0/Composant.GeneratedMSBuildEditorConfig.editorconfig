@@ -28,8 +28,16 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Git Repos/ProjetsCSharp/Composant/Component/ColorControls.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XENvbG9yQ29udHJvbHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Git Repos/ProjetsCSharp/Composant/Component/MonComposant.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XE1vbkNvbXBvc2FudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Git Repos/ProjetsCSharp/Composant/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Git Repos/ProjetsCSharp/Composant/Pages/Exemple.razor]
@@ -40,8 +48,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Git Repos/ProjetsCSharp/Composant/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
+[C:/Git Repos/ProjetsCSharp/Composant/Pages/TestComposant.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVzdENvbXBvc2FudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Git Repos/ProjetsCSharp/Composant/_Imports.razor]

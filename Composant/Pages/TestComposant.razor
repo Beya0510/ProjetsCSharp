@@ -1,0 +1,24 @@
+﻿@page "/test-composant"
+@using Component
+@inject Composant.Services.AppState AppState
+
+<h3>Test Composant</h3>
+
+<h1>Test du composant Moncomposant</h1>
+
+<div class="test-container">
+    <b><MonComposant
+            Message="Test du composant !"
+            PageBackgroundColor="white"
+            OnColorChange="HandleColorChange" /></b>
+</div>
+
+<p><b>Nombre de changements de couleur détectés : @AppState.CounterValue</b></p>
+
+@code {
+    private void HandleColorChange()
+    {
+        // Incrémente le compteur global via le service
+        AppState.IncrementCounter();
+    }
+}
