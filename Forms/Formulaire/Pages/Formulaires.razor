@@ -1,0 +1,100 @@
+﻿@page "/formulaires"
+@using Microsoft.AspNetCore.Components.Forms
+@using System.ComponentModel.DataAnnotations
+@using Formulaire.Models
+@using Formulaire.Services
+@inject NavigationManager Navigation
+@inject Formulaire.Services.PersonneService PersonneService
+
+<PageTitle>Formulaires</PageTitle>
+
+<h1>Formulaires</h1>
+
+<EditForm Model="@personne" OnValidSubmit="@HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="mb-3">
+        <label for="nom" class="form-label">Nom</label>
+        <InputText id="nom" class="form-control" @bind-Value="@personne.Nom" />
+        <ValidationMessage For="@(() => personne.Nom)" />
+    </div>
+
+    <div class="mb-3">
+        <label for="prenom" class="form-label">Prénom</label>
+        <InputText id="prenom" class="form-control" @bind-Value="@personne.Prenom" />
+        <ValidationMessage For="@(() => personne.Prenom)" />
+    </div>
+
+    <div class="mb-3">
+        <label for="datenaissance" class="form-label">Date de naissance</label>
+        <InputDate id="datenaissance" class="form-control" @bind-Value="@personne.DateNaissance" />
+        <ValidationMessage For="@(() => personne.DateNaissance)" />
+    </div>
+
+    <div class="mb-3">
+        <label for="adresse" class="form-label">Adresse</label>
+        <InputText id="adresse" class="form-control" @bind-Value="@personne.Adresse" />
+        <ValidationMessage For="@(() => personne.Adresse)" />
+    </div>
+
+    <div class="mb-3">
+        <label for="ville" class="form-label">Ville</label>
+        <InputText id="ville" class="form-control" @bind-Value="@personne.Ville" />
+        <ValidationMessage For="@(() => personne.Ville)" />
+    </div>
+
+    <div class="mb-3">
+        <label for="codepostal" class="form-label">Code Postal</label>
+        <InputText id="codepostal" class="form-control" @bind-Value="@personne.CodePostal" />
+        <ValidationMessage For="@(() => personne.CodePostal)" />
+    </div>
+
+    <div class="mb-3">
+        <label for="pays" class="form-label">Pays</label>
+        <InputText id="pays" class="form-control" @bind-Value="@personne.Pays" />
+        <ValidationMessage For="@(() => personne.Pays)" />
+    </div>
+
+    <div class="mb-3">
+        <label for="telephone" class="form-label">Téléphone</label>
+        <InputText id="telephone" class="form-control" @bind-Value="@personne.Telephone" />
+        <ValidationMessage For="@(() => personne.Telephone)" />
+    </div>
+
+    <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <InputText id="email" type="email" class="form-control" @bind-Value="@personne.Email" />
+        <ValidationMessage For="@(() => personne.Email)" />
+    </div>
+
+    <div class="mb-3">
+        <label for="genre" class="form-label">Genre</label>
+        <InputText id="genre" class="form-control" @bind-Value="@personne.Genre" />
+        <ValidationMessage For="@(() => personne.Genre)" />
+    </div>
+
+    <div class="mb-3">
+        <label for="issubscribe" class="form-label">Abonné</label>
+        <InputCheckbox id="issubscribe" class="form-check-input" @bind-Value="@personne.IsSubscribe" />
+        <ValidationMessage For="@(() => personne.IsSubscribe)" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Envoyer</button>
+</EditForm>
+
+@code {
+    private Personne personne = new Personne("", "", DateTime.Now, "", "",
+        "", "", "", "", "");
+
+    private void HandleValidSubmit()
+    {
+        PersonneService.EnregistrerPersonne(personne);
+        Navigation.NavigateTo("/confirmation");
+    }
+
+    private void HandleInvalidSubmit()
+    {
+        Console.WriteLine("Formulaire invalide");
+    }
+}

@@ -1,0 +1,109 @@
+﻿@page "/details"
+@using Formulaire.Models
+@inject Formulaire.Services.PersonneService PersonneService
+
+<h3>Détails de la dernière personne enregistrée</h3>
+
+@if (dernierePersonne != null)
+{
+    <table class="table table-bordered">
+        <tr>
+            <th>Nom</th>
+            <td>@dernierePersonne.Nom</td>
+        </tr>
+        <tr>
+            <th>Prénom</th>
+            <td>@dernierePersonne.Prenom</td>
+        </tr>
+        <tr>
+            <th>Date de naissance</th>
+            <td>@dernierePersonne.DateNaissance.ToShortDateString()</td>
+        </tr>
+        <tr>
+            <th>Adresse</th>
+            <td>@dernierePersonne.Adresse</td>
+        </tr>
+        <tr>
+            <th>Ville</th>
+            <td>@dernierePersonne.Ville</td>
+        </tr>
+        <tr>
+            <th>Code Postal</th>
+            <td>@dernierePersonne.CodePostal</td>
+        </tr>
+        <tr>
+            <th>Pays</th>
+            <td>@dernierePersonne.Pays</td>
+        </tr>
+        <tr>
+            <th>Téléphone</th>
+            <td>@dernierePersonne.Telephone</td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td>@dernierePersonne.Email</td>
+        </tr>
+        <tr>
+            <th>Genre</th>
+            <td>@dernierePersonne.Genre</td>
+        </tr>
+        <tr>
+            <th>Abonné</th>
+            <td>@(dernierePersonne.IsSubscribe ? "Oui" : "Non")</td>
+        </tr>
+    </table>
+}
+else
+{
+    <p>Aucune personne enregistrée récemment.</p>
+}
+
+<h3>Liste de toutes les personnes enregistrées</h3>
+
+@if (toutesLesPersonnes.Any())
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Email</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var personne in toutesLesPersonnes)
+            {
+                <tr>
+                    <td>@personne.Nom</td>
+                    <td>@personne.Prenom</td>
+                    <td>@personne.Email</td>
+                    <td>
+                        <button class="btn btn-danger btn-sm" @onclick="() => SupprimerPersonne(personne)">Supprimer</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Aucune personne enregistrée.</p>
+}
+
+@code {
+    private Personne? dernierePersonne;
+    private List<Personne> toutesLesPersonnes = new();
+
+    protected override void OnInitialized()
+    {
+        dernierePersonne = PersonneService.GetDernierePersonne();
+        toutesLesPersonnes = PersonneService.GetToutesLesPersonnes();
+    }
+
+    private void SupprimerPersonne(Personne personne)
+    {
+        PersonneService.SupprimerPersonne(personne);
+        toutesLesPersonnes = PersonneService.GetToutesLesPersonnes();
+    }
+}
