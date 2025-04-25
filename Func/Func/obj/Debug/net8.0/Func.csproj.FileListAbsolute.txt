@@ -1,0 +1,15 @@
+C:\Git Repos\ProjetsCSharp\Func\Func\bin\Debug\net8.0\Func.exe
+C:\Git Repos\ProjetsCSharp\Func\Func\bin\Debug\net8.0\Func.deps.json
+C:\Git Repos\ProjetsCSharp\Func\Func\bin\Debug\net8.0\Func.runtimeconfig.json
+C:\Git Repos\ProjetsCSharp\Func\Func\bin\Debug\net8.0\Func.dll
+C:\Git Repos\ProjetsCSharp\Func\Func\bin\Debug\net8.0\Func.pdb
+C:\Git Repos\ProjetsCSharp\Func\Func\obj\Debug\net8.0\Func.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git Repos\ProjetsCSharp\Func\Func\obj\Debug\net8.0\Func.AssemblyInfoInputs.cache
+C:\Git Repos\ProjetsCSharp\Func\Func\obj\Debug\net8.0\Func.AssemblyInfo.cs
+C:\Git Repos\ProjetsCSharp\Func\Func\obj\Debug\net8.0\Func.csproj.CoreCompileInputs.cache
+C:\Git Repos\ProjetsCSharp\Func\Func\obj\Debug\net8.0\Func.sourcelink.json
+C:\Git Repos\ProjetsCSharp\Func\Func\obj\Debug\net8.0\Func.dll
+C:\Git Repos\ProjetsCSharp\Func\Func\obj\Debug\net8.0\refint\Func.dll
+C:\Git Repos\ProjetsCSharp\Func\Func\obj\Debug\net8.0\Func.pdb
+C:\Git Repos\ProjetsCSharp\Func\Func\obj\Debug\net8.0\Func.genruntimeconfig.cache
+C:\Git Repos\ProjetsCSharp\Func\Func\obj\Debug\net8.0\ref\Func.dll
